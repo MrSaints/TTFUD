@@ -1,0 +1,20 @@
+{
+  "name": "TTFUD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Ian Lai <ian@fyianlai.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://ian.mit-license.org/"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-compass": "^0.7.2"
+  }
+}
