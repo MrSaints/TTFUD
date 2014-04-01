@@ -39,7 +39,14 @@ var videos = [
     'oLnB4UVNoUQ',
     'FzRH3iTQPrk',
     'Hc6J5rlKhIc',
-    '6Y3fmsULu_U'
+    '6Y3fmsULu_U',
+    '5cEL5mq-OOA',
+    'n0rsrKfBfBw',
+    'rY8DSFZ08JQ',
+    'e6gqGRZI4nk',
+    '3HrKTFTDLxA',
+    'QYZfcFzcwxo',
+    'EILbEFoqtm8'
 ]
 
 var params = { allowScriptAccess: "always" };
