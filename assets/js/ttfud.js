@@ -58,7 +58,6 @@ swfobject.embedSWF("http://www.youtube.com/apiplayer?enablejsapi=1&version=3&pla
 
 var overlay = $('.overlay-wrapper');
 
-
 function onYouTubePlayerReady (id) {
     player = player || document.getElementById(id);
     player.addEventListener("onStateChange", "onPlayerStateChange");
@@ -98,5 +97,9 @@ function playRandom (id) {
     overlay.click(function () {
         playRandom(playerID);
         overlay.fadeOut();
+    });
+
+    $(window).smartresize(function () {
+        $('#ttfud-player').width($(window).width()).height($(window).height());
     });
 }(jQuery));
